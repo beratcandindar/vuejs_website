@@ -1,0 +1,59 @@
+body{
+    margin-top: 69px;
+    background-color: #1f2937;
+
+}
+.title{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px #0dcaf0;
+}
+.crease{
+    border-style: none;
+    background-color: transparent;
+    padding: 0;
+    color: #04AA6D;
+}
+.Counter{
+    width: 400px;
+    height: 260px;
+    margin: auto;
+    position: relative;
+    border: 3px solid #adb5bd;
+    font-family: 'Orbitron', sans-serif;
+}
+.Counter-Box{
+    margin: auto;
+    width: 34%;
+    justify-content: center;
+}
+.click{
+    display: inline-block;
+    margin-top: 10px;
+    width: 70px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    box-shadow: 0 5px #999;
+}
+.click:active {
+    
+    background-color: #004B49;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+.reset{
+    width: 130px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #3B7A57;
+}
