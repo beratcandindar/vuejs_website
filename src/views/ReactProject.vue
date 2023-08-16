@@ -50,7 +50,9 @@ export default {
                             <a href="https://twitter.com/"><i class=" right-page-label"><fa :icon="['fab', 'twitter']"/></i></a>
                             <a href="https://github.com/"><i class="right-page-label"><fa :icon="['fab', 'github']"/></i></a>
                         </div>
-                        <div class="deneme"><hr/>Or<hr/></div>
+                        <div class="hr-box"><hr/>
+                            <div class="or">Or</div>
+                        </div>
                         <input ref="name" class="form-control" placeholder="Full name"/>
                         <input ref="mail" class="form-control" placeholder="Mobile number or email"/>
                         <input ref="passw"  class="form-control" placeholder="Password"/>

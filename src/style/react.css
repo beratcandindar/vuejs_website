@@ -70,11 +70,14 @@ body{
 }
 hr{
     display: inline-block;
-    width: 44%;
+    width: 100%;
     margin: 1%;
 }
-.deneme{
+.hr-box{
+    position: relative;
     margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 .used-by{
     margin-top: 30px;
@@ -125,19 +128,14 @@ hr{
 .right-page-title{
     color: #4b5563;
     font-family: 'Poppins', sans-serif;
-    margin: 10px;
 }
 .right-page-label{
-    width: auto;
-    height: auto;
-    padding: 2.2%;
-    padding-left: 11.6%;
-    padding-right: 11.6%;
-    margin: 2%;
+    display: block;
+    text-align: center;
     border: #a8acb3 .1em solid;
     border-radius: 5px;
     opacity: .8;
-    margin-bottom: 20px;
+    padding: 10px 0;
 }
 .right-page-container i{
     color: #1f2937;
@@ -156,11 +154,24 @@ input{
     border-radius: 5px;
     border-style: none;
 }
+.or{
+    width: 50px;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+    text-align: center;
+}
 .label-box{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-
-@media screen and (max-width: 600px) {
+.label-box > a{
+    width: 28%;
+}
+@media screen and (max-width: 768px) {
     .left-page {
         width: 95%;
         text-align: center;
@@ -192,13 +203,6 @@ input{
     }
     .label-box{
         max-width: 100%;
-    }
-    .deneme{
-        display:inline-flex;
-        width: 100%;
-    }
-    hr{
-        margin-top: 3%;
     }
     .icon-box{
         position: relative;
